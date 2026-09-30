@@ -1,0 +1,11 @@
+current_date: 2026-09-30
+current_day: Wednesday
+academic_year: 2026-2027
+scheduled_module: "EG-M384 Engineering Simulation"
+scheduled_module_status: locked_by_governed_weekly_timetable
+session_status: ready
+active_official_topic: "Review computational modelling and simulation in design"
+active_official_order: 1
+active_foundation_bridge: null
+last_governance_check: 2026-09-30
+next_action: "Begin Engineering Simulation topic 1 from first principles; open a foundation bridge only if a prerequisite gap blocks progress."
