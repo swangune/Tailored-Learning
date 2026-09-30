@@ -1,0 +1,31 @@
+module,official_order,topic,status,bridge,mastery_evidence,last_updated
+CSCM445 Machine Learning,1,Introduction to machine learning and AI,not-started,,,2026-09-30
+CSCM445 Machine Learning,2,K-means clustering,not-started,,,2026-09-30
+CSCM445 Machine Learning,3,Gaussian Mixture Models (GMMs),not-started,,,2026-09-30
+CSCM445 Machine Learning,4,Linear Regression,not-started,,,2026-09-30
+CSCM445 Machine Learning,5,Principal Component Analysis (PCA),not-started,,,2026-09-30
+CSCM445 Machine Learning,6,Linear Discriminant Analysis (LDA),not-started,,,2026-09-30
+CSCM445 Machine Learning,7,Neural Networks (NN),not-started,,,2026-09-30
+CSCM445 Machine Learning,8,Convolutional Neural Networks (CNNs),not-started,,,2026-09-30
+CSCM445 Machine Learning,9,Support Vector Machine (SVM),not-started,,,2026-09-30
+CSCM445 Machine Learning,10,Logistic Regression (LR),not-started,,,2026-09-30
+CSCM445 Machine Learning,11,Revision,not-started,,,2026-09-30
+FEM & Structural Dynamics,1,Isoparametric finite elements,not-started,,,2026-09-30
+FEM & Structural Dynamics,2,Numerical integration,not-started,,,2026-09-30
+FEM & Structural Dynamics,3,2D heat transfer,not-started,,,2026-09-30
+FEM & Structural Dynamics,4,Quadrilateral and high-order elements,not-started,,,2026-09-30
+FEM & Structural Dynamics,5,Mesh generation,not-started,,,2026-09-30
+FEM & Structural Dynamics,6,2D and 3D elasticity,not-started,,,2026-09-30
+FEM & Structural Dynamics,7,Introduction to non-linear problems,not-started,,,2026-09-30
+FEM & Structural Dynamics,8,Time integration for transient heat transfer,not-started,,,2026-09-30
+FEM & Structural Dynamics,9,Explicit and implicit time integration,not-started,,,2026-09-30
+FEM & Structural Dynamics,10,Fundamentals of structural dynamics (SDOF/MDOF/modal review),not-started,,,2026-09-30
+FEM & Structural Dynamics,11,Structural dynamics,not-started,,,2026-09-30
+FEM & Structural Dynamics,12,Newmark method,not-started,,,2026-09-30
+EG-M384 Engineering Simulation,1,Review computational modelling and simulation in design,active,,,2026-09-30
+EG-M384 Engineering Simulation,2,Computational modelling strategy development,not-started,,,2026-09-30
+EG-M384 Engineering Simulation,3,CAD and meshing effects on accuracy,not-started,,,2026-09-30
+EG-M384 Engineering Simulation,4,Finite volume and finite element methods overview,not-started,,,2026-09-30
+EG-M384 Engineering Simulation,5,Flow heat structural and multiphysics modelling tools,not-started,,,2026-09-30
+EG-M384 Engineering Simulation,6,Optimisation tools,not-started,,,2026-09-30
+EG-M384 Engineering Simulation,7,Performance and optimisation case studies,not-started,,,2026-09-30
