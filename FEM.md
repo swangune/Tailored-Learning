@@ -1,4 +1,4 @@
-# Fresh-Start Prompt: Steady-State 2D Heat Flow and FEM from First Principles
+Steady-State 2D Heat Flow and FEM from First Principles
 
 Teach me steady-state two-dimensional heat conduction and derive its finite-element formulation from first principles.
 
