@@ -31,3 +31,15 @@ Authorized by student instruction: when the student asks “what are we learning
 - Added an automatic repair loop for questions that expose untraceable symbols, numbers, assumptions or operations.
 - Added an explicit automatic study-start trigger to AGENTS.md.
 - Required source/syllabus resolution and mastery-gate enforcement on automatic session start.
+
+
+## 2026-10-05 — Mandatory session ledger and mode control
+
+Authorized by student instruction: all study sessions must be recorded so the system can determine when to study theory versus programming.
+
+- Made recording mandatory for every study session, including theory, programming, simulation, review and catch-up sessions.
+- Added `state/session_history.csv` as the structured session-mode ledger.
+- Added a required `Session mode` and `Next session mode` to session records.
+- Made recorded evidence, rather than weekday alone, authoritative for choosing theory versus programming emphasis.
+- Recorded the 2026-10-05 CSCM445 K-means session as theory and set the next CSCM445 mode to programming/verification.
+- Updated `state/current.yaml` to point to the recorded session and next mode.
