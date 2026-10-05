@@ -59,6 +59,8 @@ The day determines the module; the current syllabus state determines the topic.
 
 For the second weekly day of a programming-heavy module, prefer implementation, debugging, verification, and retrieval of the same/current syllabus topic before advancing.
 
+**Session-history override:** before deciding the actual mode, read `state/session_history.csv`. If the previous session already completed implementation but exposed a theory gap, the next session returns to theory/review. If theory is secure but programming evidence is missing, the next session is programming even if the weekday would otherwise suggest theory. The ledger therefore determines theory-versus-programming continuity; the weekday supplies only the default cadence.
+
 ## 5. Timetable change protocol
 
 A permanent change requires:
