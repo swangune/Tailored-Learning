@@ -197,3 +197,26 @@ Conceptual questions are part of the teaching process, not interruptions to it.
 7. 5–10 min transfer/mastery gate and log update
 
 Times are flexible. Traceability and sequence are more important than exact duration.
+
+
+## Session-mode controller
+
+Every teaching session must have a recorded primary mode: `theory`, `programming`, `simulation`, `review` or `mixed`.
+
+Before teaching, inspect `state/session_history.csv` for the current module/topic.
+
+Use the following controller:
+
+```text
+NEW TOPIC -> theory
+theory secure + implementation absent -> programming
+programming reveals conceptual gap -> theory/review repair
+theory + implementation secure + mastery incomplete -> review/transfer
+mastery passed -> next official topic -> theory
+```
+
+For simulation-tool-led topics, use `simulation` where the corresponding applied evidence is required.
+
+The session mode does not override the traceable teaching sequence. It determines which part of the sequence receives the main emphasis.
+
+At session close, always record what was actually done and the evidence still missing. The next-session mode must be derived from that record, not guessed from the weekday.
