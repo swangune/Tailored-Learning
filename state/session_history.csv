@@ -1,0 +1,2 @@
+date,module,official_topic,session_mode,primary_focus,programming_or_tool_work,mastery_gate,next_session_mode,next_action
+2026-10-05,CSCM445 Machine Learning,K-means clustering,theory,"First-principles K-means: standardisation, assignment/update iterations, convergence, objective/SSE, centroid derivation, local minima, K selection, limitations, image segmentation/compression",no,not-passed,programming,"Implement K-means in Python from the understood algorithm; verify against hand calculations; then perform transfer/mastery check"
