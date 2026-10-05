@@ -26,9 +26,25 @@ Automatically:
 4. teach using the authoritative sequence in `LEARNING_PROTOCOL.md`;
 5. apply the no-hidden-step rule for the first complete worked example;
 6. interrupt forward progress and repair any untraceable symbol, number, assumption or operation exposed by the learner;
-7. use `MASTERY.md` before advancing to the next official item.
+7. read the most recent row(s) for that module in `state/session_history.csv` and choose the session mode from evidence;
+8. use `MASTERY.md` before advancing to the next official item.
 
 The learner should not have to repeat these instructions at the start of each session.
+
+### Mandatory session recording and theory/programming control
+
+Every study session must be recorded, not only “substantial” sessions.
+
+At session start, inspect `state/session_history.csv` for the current module and active topic. Use it to determine whether the session should be `theory`, `programming`, `simulation`, `review` or `mixed`.
+
+For programming-heavy modules, weekday is only the default cadence. Evidence in the session ledger controls the actual mode:
+
+- theory understood but implementation missing -> programming;
+- implementation exposes a conceptual gap -> theory/review repair;
+- theory and implementation secure but mastery incomplete -> review/transfer;
+- mastery passed and a new topic begins -> theory.
+
+At session close, create/update the dated Markdown record in `sessions/`, append a row to `state/session_history.csv`, then update `state/current.yaml` and `state/progress.csv` as appropriate.
 
 ## 2. Preserve official syllabus order
 
@@ -99,7 +115,7 @@ Next official syllabus item:
 Any foundation bridge still open:
 ```
 
-Then update `state/current.yaml` and `state/progress.csv`.
+Then update the dated file in `sessions/`, append `state/session_history.csv`, and update `state/current.yaml` and `state/progress.csv` as appropriate.
 
 ## 8. Drift triggers
 
@@ -114,7 +130,7 @@ Stop and check governance if any of the following occurs:
 
 ## 9. Two-day programming cadence
 
-For Machine Learning and FEM & Structural Dynamics, use the first weekly day primarily for first-principles concept development and the second weekly day primarily for implementation, debugging, verification, retrieval and mastery evidence, unless the active syllabus item demands a different split. Do not advance merely because it is the second day.
+For Machine Learning and FEM & Structural Dynamics, the first weekly day is a default theory preference and the second weekly day is a default programming/implementation preference. However, the recorded session history has higher authority for mode selection: continue whichever mode is needed to close the current topic's missing evidence. Do not advance merely because it is the second day.
 
 Engineering Simulation receives one governed study day per week under the current student rule.
 
