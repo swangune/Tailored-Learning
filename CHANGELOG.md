@@ -19,3 +19,15 @@ Authorized by student instruction: modules involving programming receive two stu
 - Locked Monday/Thursday to Machine Learning, Tuesday/Friday to FEM & Structural Dynamics, and Wednesday to Engineering Simulation.
 - Resolved the current Wednesday session to Engineering Simulation topic 1.
 - Kept the separate university lecture/lab timetable explicitly unknown.
+
+
+## 2026-10-05 — Automatic traceable teaching trigger
+
+Authorized by student instruction: when the student asks “what are we learning today?” or an equivalent study-start request, the tutor must automatically use the standardized teaching method without requiring the student to restate it.
+
+- Made the traceable first-principles sequence the default teaching execution method.
+- Moved the smallest meaningful numerical example before symbolic compression/derivation.
+- Added the no-hidden-step rule for the first complete worked example.
+- Added an automatic repair loop for questions that expose untraceable symbols, numbers, assumptions or operations.
+- Added an explicit automatic study-start trigger to AGENTS.md.
+- Required source/syllabus resolution and mastery-gate enforcement on automatic session start.
