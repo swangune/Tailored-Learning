@@ -14,9 +14,10 @@ When deciding what to study, use this order:
 1. **User-provided university syllabus / timetable**
 2. `TIMETABLE.md`
 3. `SYLLABUS.md` and the relevant file in `modules/`
-4. `state/current.yaml`
+4. `state/current.yaml` and `state/session_history.csv`
 5. `LEARNING_PROTOCOL.md`
-6. reference textbooks and external material
+6. `TEACHING_STANDARD.md`
+7. reference textbooks and external material
 
 A textbook may explain a syllabus topic, but it may not silently replace, reorder or expand the syllabus.
 
@@ -42,10 +43,12 @@ The governed study timetable currently identifies one module for every Monday-Fr
 - `SYLLABUS.md` — official syllabus snapshot from the supplied material
 - `GOVERNANCE.md` — anti-drift rules and change control
 - `TIMETABLE.md` — university timetable + governed self-study allocation
-- `LEARNING_PROTOCOL.md` — first-principles teaching method
+- `LEARNING_PROTOCOL.md` — first-principles learning sequence
+- `TEACHING_STANDARD.md` — authoritative teaching-execution standard
 - `MASTERY.md` — progression gates
 - `modules/` — module-specific learning paths
 - `state/current.yaml` — single current learning state
+- `state/session_history.csv` — session-mode history controlling theory/programming/simulation/review emphasis
 - `state/progress.csv` — auditable topic progress
 - `sessions/` — dated study-session records
 - `references/` — mapping of supporting books/resources
