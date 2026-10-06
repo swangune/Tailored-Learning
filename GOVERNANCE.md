@@ -92,3 +92,17 @@ At the end of each academic week:
 ## G13 — Controlled acceleration
 
 If the learner already masters a prerequisite/topic, it may be fast-tracked only after a diagnostic problem demonstrates mastery. The diagnostic result is logged.
+
+
+## G14 — Teaching-standard authority
+
+`TEACHING_STANDARD.md` is the authoritative execution standard for **how** substantial technical teaching is delivered.
+
+- The official syllabus determines **what** is studied.
+- `TIMETABLE.md` determines **when** the module is scheduled.
+- approved source material determines the supported technical content.
+- `TEACHING_STANDARD.md` determines **how** the material is taught.
+- `state/session_history.csv` determines the evidence-based theory/programming/simulation/review emphasis.
+- `MASTERY.md` determines when progression is allowed.
+
+The automatic study-start trigger, no-hidden-step rule, repair loop, session-mode controller, and mandatory session recording in `TEACHING_STANDARD.md` apply by default. Permanent changes require explicit student authorization and a changelog entry.
