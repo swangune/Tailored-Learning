@@ -8,9 +8,11 @@ Before teaching, read in this order:
 
 1. `TIMETABLE.md`
 2. `state/current.yaml`
-3. the relevant `modules/<module>.md`
-4. `LEARNING_PROTOCOL.md`
-5. `MASTERY.md`
+3. `state/session_history.csv`
+4. the relevant `modules/<module>.md`
+5. `LEARNING_PROTOCOL.md`
+6. `TEACHING_STANDARD.md`
+7. `MASTERY.md`
 
 Use the governed Monday-Friday study allocation in `TIMETABLE.md`. Do **not** infer or swap a module because another subject seems more useful. Treat the separate university class timetable as unknown unless the student supplies it.
 
@@ -23,7 +25,7 @@ Automatically:
 1. resolve the scheduled module from `TIMETABLE.md` and `state/current.yaml`;
 2. resolve the active official syllabus item from the module file and current state;
 3. open only the prerequisite bridge required for that item, if any;
-4. teach using the authoritative sequence in `LEARNING_PROTOCOL.md`;
+4. teach using `LEARNING_PROTOCOL.md` together with the authoritative execution rules in `TEACHING_STANDARD.md`;
 5. apply the no-hidden-step rule for the first complete worked example;
 6. interrupt forward progress and repair any untraceable symbol, number, assumption or operation exposed by the learner;
 7. read the most recent row(s) for that module in `state/session_history.csv` and choose the session mode from evidence;
@@ -54,7 +56,7 @@ Prerequisite remediation is permitted only as a **Foundation bridge**. It must b
 
 ## 3. Traceable first principles before shortcuts
 
-For a new technical topic, follow the learning sequence in `LEARNING_PROTOCOL.md`.
+For a new technical topic, follow the learning sequence in `LEARNING_PROTOCOL.md` and the authoritative execution rules in `TEACHING_STANDARD.md`.
 
 The essential order is:
 
