@@ -43,3 +43,14 @@ Authorized by student instruction: all study sessions must be recorded so the sy
 - Made recorded evidence, rather than weekday alone, authoritative for choosing theory versus programming emphasis.
 - Recorded the 2026-10-05 CSCM445 K-means session as theory and set the next CSCM445 mode to programming/verification.
 - Updated `state/current.yaml` to point to the recorded session and next mode.
+
+
+## 2026-10-06 — Added TEACHING_STANDARD.md
+
+Correction after repository verification: the teaching standard had been described and partially embedded in other governance files, but the dedicated `TEACHING_STANDARD.md` file itself had not been committed.
+
+- Added `TEACHING_STANDARD.md` to the repository root.
+- Made it the explicit authority for how substantial technical teaching is executed.
+- Updated `AGENTS.md` so tutors must read and apply it automatically at study-session start.
+- Updated `GOVERNANCE.md` with teaching-standard authority.
+- Updated `README.md` to include the teaching standard and session-history controller in the repository map/source hierarchy.
