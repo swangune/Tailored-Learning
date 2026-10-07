@@ -10,7 +10,7 @@ CSCM445 Machine Learning,8,Convolutional Neural Networks (CNNs),not-started,,,20
 CSCM445 Machine Learning,9,Support Vector Machine (SVM),not-started,,,2026-09-30
 CSCM445 Machine Learning,10,Logistic Regression (LR),not-started,,,2026-09-30
 CSCM445 Machine Learning,11,Revision,not-started,,,2026-09-30
-FEM & Structural Dynamics,1,Isoparametric finite elements,not-started,,,2026-09-30
+FEM & Structural Dynamics,1,Isoparametric finite elements,active,,"First-principles theory completed through reference triangle, mapping, Jacobian, derivative transformation, B-matrix and element heat-transfer terms; guided transfer exercise completed; independent reconstruction/transfer and MATLAB evidence still required",2026-10-07
 FEM & Structural Dynamics,2,Numerical integration,not-started,,,2026-09-30
 FEM & Structural Dynamics,3,2D heat transfer,not-started,,,2026-09-30
 FEM & Structural Dynamics,4,Quadrilateral and high-order elements,not-started,,,2026-09-30
